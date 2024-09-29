@@ -1,16 +1,10 @@
-# diva
+Feat(SignIn)/signInScreen🎨/https://mahmoudabuelazem.atlassian.net/browse/DIVA-9
 
-A new Flutter project.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Add LogIn Screen 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="194" alt="sign_up" src="https://github.com/user-attachments/assets/5191a5b7-b15b-4550-a062-999e9ebdd4ae">
+<img width="179" alt="Screenshot 2024-09-27 061608" src="https://github.com/user-attachments/assets/33523cde-a697-4ed6-ad38-448982e2ad2f">
