@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../../core/widgets/app_form_feild.dart';
+import '../../../../core/widgets/app_icons.dart';
 import '../../../../core/widgets/app_text_button.dart';
 
 
@@ -22,7 +23,7 @@ class SignInScreen extends StatelessWidget {
                     fontFamily: 'Libre Baskerville',
                     fontWeight: FontWeight.w400)),
             const SizedBox(height: 20),
-            Image.asset('assets/images/log_in.png',width: 200,height: 200,),
+            Image.asset('assets/Mobile login-pana 1.png',width: 200,height: 200,),
             const AddFormField(
               hintText: ' E-mail / phone number ',
             ),
@@ -47,7 +48,7 @@ class SignInScreen extends StatelessWidget {
             ),
             const AppTextButton(),
             const SizedBox(height: 20),
-            // const AppIconsBotton(),
+            const AppIconsButton(),
             const SizedBox(height: 20),
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -57,14 +58,16 @@ class SignInScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
                 Text(
-                  "Sing Up ",
+                  "Sing In ",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Color(0xFFff1768),
                   ),
                 ),
+
               ],
             ),
+
           ]),
         ),
       ),
