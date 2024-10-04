@@ -1,3 +1,4 @@
+<img width="194" alt="sign_up" src="https://github.com/user-attachments/assets/8f10b3c0-af95-4d2a-b2e4-455a7cf42cae">
 ![Uploading sign_up.png…]()
 Feat(SignIn)/signInScreen🎨/https://mahmoudabuelazem.atlassian.net/browse/DIVA-9
 
