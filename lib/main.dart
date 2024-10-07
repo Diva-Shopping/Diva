@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import 'package:diva/feature/verification_phone/verification_phone_screen.dart';
+=======
+import 'package:diva/features/sign_up/ui/sign_up_screen.dart';
+>>>>>>> 50876f6579824daa9de6b48fad2d8fa57fa76a1a
 import 'package:flutter/material.dart';
+import 'features/login/ui/widgets/sign_in.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,60 +16,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+<<<<<<< HEAD
       title: 'Flutter Demo',
+=======
+>>>>>>> 50876f6579824daa9de6b48fad2d8fa57fa76a1a
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+<<<<<<< HEAD
       home: VerificationPhoneScreen(),
+=======
+      home: const SignupScreen(),
+>>>>>>> 50876f6579824daa9de6b48fad2d8fa57fa76a1a
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ),
-    );
-  }
-}
