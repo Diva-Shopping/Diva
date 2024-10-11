@@ -1,7 +1,9 @@
+import 'package:diva/core/helpers/constants.dart';
 import 'package:diva/core/helpers/spacing.dart';
 import 'package:flutter/material.dart';
 import '../section/home_app_bar.dart';
 import '../section/search_and_filter.dart';
+import '../widget/banner_container.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,6 +20,21 @@ class HomeScreen extends StatelessWidget {
               const HomeAppBar(),
               verticalSpacing(16),
               const SearchAndFilter(),
+              SizedBox(
+                height: 127,
+                child: ListView.separated(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: Constants.banners.length,
+                    separatorBuilder: (context, index) {
+                      return horizontalSpacing(15);
+                    },
+                    itemBuilder: (context, index) {
+                      return BannerContainer(
+                        index: index,
+                        bannerModel: Constants.banners[index],
+                      );
+                    }),
+              )
             ],
           ),
         ),
