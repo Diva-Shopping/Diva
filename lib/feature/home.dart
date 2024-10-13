@@ -6,7 +6,7 @@ class HomeVerify extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('Your are Verified',style: TextStyle(fontSize: 18.0),),
+      child: Text('HOME',style: TextStyle(fontSize: 18.0),),
     );
   }
 }
