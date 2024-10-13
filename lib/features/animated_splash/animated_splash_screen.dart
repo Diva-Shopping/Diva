@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 import '../../core/theming/colors.dart';
-import '../../main.dart';
+import '../../feature/home.dart';
 
 class AnimatedSplashScreen extends StatefulWidget {
   const AnimatedSplashScreen({super.key});
@@ -21,7 +21,10 @@ class _AnimatedSplashScreenState extends State<AnimatedSplashScreen> {
     Timer(
       const Duration(seconds: 3),
       () {
-        Navigator.push(context, MaterialPageRoute(builder: (context) => const MyHomePage(title: 'Flutter Demo Home Page')));
+        Navigator.push(context,
+         MaterialPageRoute( 
+          builder: (context) => const HomeVerify() // just temp , untill to add MyHomePage File ..
+          ));
       },
     );
   }
