@@ -1,9 +1,11 @@
-import 'package:diva/feature/verification_phone/ui/verification_phone_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+
+import 'features/animated_splash/animated_splash_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  
   // FirebaseAuth.instance.authStateChanges().listen((user) {
   //   if (user == null) {
   //     Navigator.push(context,
@@ -13,8 +15,6 @@ void main() async {
   //   }
   // });
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,4 +28,4 @@ class MyApp extends StatelessWidget {
     );
   }
  }
-}
+
